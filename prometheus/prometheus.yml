@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'monitoring-demo-app'
+    static_configs:
+      - targets: ['app:3000']
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']

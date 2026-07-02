@@ -89,3 +89,14 @@ A Grafana alert rule (`High Request Rate Alert`) is configured to trigger when t
 **Shashank**
 [GitHub](https://github.com/shashanksk04)
 
+
+## 🔴 Try It Live
+
+This project isn't hosted permanently (monitoring stacks are typically run on-demand, not left running 24/7). To see it live:
+
+    git clone https://github.com/shashanksk04/monitoring-prometheus-grafana.git
+    cd monitoring-prometheus-grafana
+    docker compose up -d
+
+All 3 services will be running within seconds — no rebuild needed. Happy to walk through it live on a call.
+
